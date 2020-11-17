@@ -2,9 +2,10 @@ import React from 'react';
 import './Footer.css';
 
 function Footer() {
+  const date = new Date();
   return (
     <footer className='Footer'>
-      <p>Ryan Lee © 2020</p>
+      <p>Ryan Lee © {date.getFullYear()}</p>
     </footer>
   );
 }
