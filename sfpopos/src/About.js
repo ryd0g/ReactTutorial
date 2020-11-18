@@ -3,7 +3,7 @@ import './About.css';
 
 function About() {
   return (
-    <div className='About'>
+    <div>
       <h1>About SFPOPOS</h1>
       <p>
         POPOS are publicly accessible spaces in forms of plazas, terraces,
