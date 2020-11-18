@@ -4,7 +4,7 @@ import Title from './Title';
 import POPOSList from './POPOSList';
 import Footer from './Footer';
 import About from './About';
-import POPOSDetails from './POPOSDetails';
+import POPOSDetails from '../POPOSDetails';
 import { HashRouter as Router, Route } from 'react-router-dom';
 
 function App() {
