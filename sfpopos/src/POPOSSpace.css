@@ -13,3 +13,8 @@
 .POPOSSpace > h1 {
   font-size: 25px;
 }
+img {
+  height: auto;
+  border: solid 2px black;
+  border-radius: 3px;
+}
