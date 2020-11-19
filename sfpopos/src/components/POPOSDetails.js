@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
-
+import './POPOSDetails.css';
 import data from './sfpopos-data.json';
 
 function POPOSDetails(props) {
@@ -8,17 +8,17 @@ function POPOSDetails(props) {
   const { images, title, desc, hours, features, geo } = data[id];
 
   return (
-    <div>
-      <div>
+    <div className='details'>
+      <div className='image'>
         <img src={`${process.env.PUBLIC_URL}images/${images[0]}`} />
       </div>
 
-      <div>
-        <h1>{title}</h1>
-        <p>{desc}</p>
-        <p>{hours}</p>
-        <p>{features}</p>
-        <p>
+      <div className='details-info'>
+        <h1 className='title'>{title}</h1>
+        <p className='desc'>{desc}</p>
+        <p className='hours'>{hours}</p>
+        <p className='features'>{features}</p>
+        <p className='geo'>
           {geo.lat} {geo.lon}
         </p>
       </div>

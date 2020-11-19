@@ -1,0 +1,26 @@
+.details {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 960px;
+  margin: auto;
+}
+
+.details .info {
+  flex: 1;
+  text-align: left;
+  padding: 0 1em;
+}
+
+.details .title {
+  font-family: Verdana;
+  font-size: 2em;
+  margin: 0;
+}
+
+.details .image img {
+  width: 150%;
+}
+
+.details .hours {
+  font-size: 1.5em;
+}
