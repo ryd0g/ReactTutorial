@@ -7,9 +7,9 @@ function POPOSSpace(props) {
   const { name, image, address, hours, id } = props;
   return (
     <div className='POPOSSpace'>
-      <h1>
-        <Link to={`/details/${id}`}>{name}</Link>
-      </h1>
+      <Link className='POPOSSpace-title' to={`/details/${id}`}>
+        <h1>{name}</h1>
+      </Link>
 
       <Link to={`/details/${id}`}>
         <img
@@ -19,8 +19,10 @@ function POPOSSpace(props) {
           alt='Hello'
         />
       </Link>
-      <div>{address}</div>
-      <div>{hours}</div>
+      <div className='info'>
+        <div>{address}</div>
+        <div>{hours}</div>
+      </div>
     </div>
   );
 }

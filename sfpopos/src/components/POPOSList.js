@@ -6,13 +6,15 @@ import data from './sfpopos-data.json';
 function POPOSList() {
   const spaces = data.map(({ title, address, images, hours }, i) => {
     return (
-      <POPOSSpace
-        id={i}
-        name={title}
-        address={address}
-        image={images[0]}
-        hours={hours} // add a new prop for hours here
-      />
+      <div className='POPOSList'>
+        <POPOSSpace
+          id={i}
+          name={title}
+          address={address}
+          image={images[0]}
+          hours={hours} // add a new prop for hours here
+        />
+      </div>
     );
   });
 
