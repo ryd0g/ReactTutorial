@@ -11,7 +11,7 @@ function POPOSDetails(props) {
   return (
     <div className='details'>
       <div className='image'>
-        <img src={`${process.env.PUBLIC_URL}images/${images[0]}`} />
+        <img src={`${process.env.PUBLIC_URL}/images/${images[0]}`} />
       </div>
 
       <div className='details-info'>
