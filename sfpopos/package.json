@@ -1,7 +1,7 @@
 {
   "name": "sfpopos",
   "version": "0.1.0",
-  "homepage": "https://ryd0g.github.io/reacttutorial",
+  "homepage": "https://ryd0g.github.io/ReactTutorial",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
